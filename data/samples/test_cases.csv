@@ -1,0 +1,16 @@
+id,text
+TC-001,Verify that form validation rejects empty required fields.
+TC-002,Test that input fields reject invalid formats such as non-numeric age.
+TC-003,Validate that sensor timeout triggers a retry after 3 seconds.
+TC-004,Verify API returns 503 when sensor is unavailable for more than 10 seconds.
+TC-005,Test PDF report generation with 100 records.
+TC-006,Verify CSV export contains all required columns.
+TC-007,Test notification alert is triggered when threshold exceeds defined limit.
+TC-008,Verify email notification is sent within 30 seconds of threshold breach.
+TC-009,Test that duplicate records are rejected by the database constraint.
+TC-010,Verify rollback occurs if a write transaction fails mid-operation.
+TC-011,Test dashboard auto-refreshes every 5 seconds with live data.
+TC-012,Verify login page renders correctly on mobile and desktop.
+TC-013,Test that configuration changes take effect without restarting the service.
+TC-014,Verify that response time under 50 concurrent users is below 2 seconds.
+TC-015,Test that user storage quota is enforced and exceeded quota is rejected.

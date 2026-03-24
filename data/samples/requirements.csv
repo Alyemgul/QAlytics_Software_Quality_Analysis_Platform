@@ -1,0 +1,11 @@
+id,text
+REQ-001,The system shall respond quickly to all user interactions.
+REQ-002,The login page must be user-friendly and intuitive.
+REQ-003,The system shall validate user input before processing.
+REQ-004,The application shall provide sufficient storage for user data.
+REQ-005,The API must handle sensor timeout errors gracefully and retry as needed.
+REQ-006,The system shall generate reports in PDF and CSV formats.
+REQ-007,The dashboard must display real-time data to users.
+REQ-008,All configuration settings shall be flexible and easy to modify.
+REQ-009,The system must always maintain data integrity and shall not corrupt records.
+REQ-010,The notification service shall send alerts to users when thresholds are exceeded.

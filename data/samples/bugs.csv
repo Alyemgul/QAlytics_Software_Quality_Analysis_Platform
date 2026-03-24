@@ -1,0 +1,21 @@
+id,title,description,severity
+BUG-001,Sensor timeout not handled,Sensor stops responding and no retry logic is triggered.,HIGH
+BUG-002,Login session expires silently,User session token expires without any notification to the user.,MEDIUM
+BUG-003,Dashboard data stale after refresh,Real-time data does not refresh correctly when navigating back to dashboard.,MEDIUM
+BUG-004,Sensor data drops under load,Sensor readings are lost when CPU load exceeds 80%.,HIGH
+BUG-005,CSV export missing columns,Exported CSV is missing the created_at and status columns.,MEDIUM
+BUG-006,Validation error message not shown,When user submits invalid input no error message appears.,LOW
+BUG-007,Sensor reconnect fails after timeout,After a sensor timeout the reconnect attempt does not succeed and requires manual restart.,HIGH
+BUG-008,Login fails on password reset flow,After resetting password user cannot log in with the new credentials immediately.,HIGH
+BUG-009,Database deadlock during concurrent writes,Concurrent write operations cause occasional deadlocks.,HIGH
+BUG-010,PDF report generation crashes on large datasets,Generating PDF with over 500 records results in a memory exception.,MEDIUM
+BUG-011,Notification email delayed by 10+ minutes,Alert emails are not sent promptly when threshold is breached.,MEDIUM
+BUG-012,Sensor threshold ignored for Channel 3,Channel 3 sensor ignores the configured alert threshold.,HIGH
+BUG-013,UI button unresponsive after first click,The submit button becomes disabled after first click even on failure.,LOW
+BUG-014,Config changes require service restart,Modified configuration values are not picked up at runtime.,MEDIUM
+BUG-015,Login page layout broken on Safari,Login form fields overflow their container on Safari 16.,LOW
+BUG-016,API timeout error not retried,When the API times out the client does not retry the request.,MEDIUM
+BUG-017,User data not saved on session expiry,In-progress data is lost when session expires without warning.,HIGH
+BUG-018,CSV import fails silently for malformed rows,Malformed rows in imported CSV are skipped without any error message.,LOW
+BUG-019,Sensor calibration data overwritten,New sensor calibration data overwrites existing data without a confirmation prompt.,MEDIUM
+BUG-020,Database connection pool exhausted under load,All DB connections are consumed during peak traffic causing request failures.,HIGH
