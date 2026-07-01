@@ -23,7 +23,7 @@ Uses **Gemini 1.5 Flash** (free tier) for AI-enhanced insights with a rule-based
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/qalytics.git
+git clone https://github.com/alyemgul/qalytics.git
 cd qalytics
 ```
 
